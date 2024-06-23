@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div>
             <SectionTittle title="Contact"></SectionTittle>
-            <div className="flex justify-between ">
+            <div className="flex gap-2 flex-col md:flex-row justify-between ">
                 <div data-aos="fade-right" data-aos-delay="50"
                     data-aos-duration="1000" className="border rounded-lg flex-auto p-8">
                     <h2 className="text-3xl text-center">Get in Touch</h2>
@@ -46,7 +46,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div data-aos="fade-left" data-aos-delay="50"
-                    data-aos-duration="1000" className="flex-auto ml-10">
+                    data-aos-duration="1000" className="flex-auto md:ml-10">
                     <div className="card bg-gray-700 w-full shrink-0 shadow-2xl">
                         <form className="card-body">
                             <div className="form-control">

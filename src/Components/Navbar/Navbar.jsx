@@ -29,7 +29,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href='/Sarnali-Resume-front.pdf' target='_blank' download="Sarnali-Resume-front.pdf" className="btn text-fuchsia-500 text-lg hover:bg-fuchsia-600 hover:text-white font-medium border-fuchsia-500 bg-transparent md:mr-4">Resume</a>
+                    <a href='/Sarnali-Resume-front.pdf' target='_blank' download="Sarnali-Resume-front.pdf" className="btn text-fuchsia-500 text-xs md:text-lg hover:bg-fuchsia-600 hover:text-white font-medium border-fuchsia-500 bg-transparent md:mr-4">Resume</a>
                 </div>
             </div>
         </div>

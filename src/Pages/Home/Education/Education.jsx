@@ -8,9 +8,9 @@ const Education = () => {
     return (
         <div className="my-10">
             <SectionTittle title="Education"></SectionTittle>
-            <div className="flex justify-between">
+            <div className="flex flex-col md:flex-row justify-between">
                 <div data-aos="fade-up" data-aos-delay="50"
-                    data-aos-duration="1200" className="border hover:border-fuchsia-500 w-[400px] rounded-lg p-5">
+                    data-aos-duration="1200" className="border hover:border-fuchsia-500 md:w-[400px] rounded-lg p-5">
                     <div className="flex justify-center">
                         <img src={diuLogo} alt="" className="h-56" />
                     </div>
@@ -19,7 +19,7 @@ const Education = () => {
                     <p>2020-2023</p>
                 </div>
                 <div data-aos="fade-down" data-aos-delay="50"
-                    data-aos-duration="1200" className="border hover:border-fuchsia-500 w-[400px] rounded-lg p-5">
+                    data-aos-duration="1200" className="border hover:border-fuchsia-500 md:w-[400px] rounded-lg p-5">
                     <div className="flex justify-center mb-4">
                         <img src={cgwcLogo} alt="" className="h-52" />
                     </div>
@@ -28,7 +28,7 @@ const Education = () => {
                     <p>2018</p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="50"
-                    data-aos-duration="1200" className="border hover:border-fuchsia-500 w-[400px] rounded-lg p-5">
+                    data-aos-duration="1200" className="border hover:border-fuchsia-500 md:w-[400px] rounded-lg p-5">
                     <div className="flex justify-center">
                         <img src={cgghsLogo} alt="" className="h-56" />
                     </div>
