@@ -8,12 +8,12 @@ import Skills from "../Skills/Skills";
 const Home = () => {
     return (
         <div className="bg-gray-800 text-white">
-            <Banner></Banner>
+            <Banner />
             <div className="max-w-7xl mx-auto space-y-10">
-                <Skills></Skills>
-                <Projects></Projects>
-                <Education></Education>
-                <Contact></Contact>
+                <Skills id="skills" />
+                <Projects id="projects" />
+                <Education id="education" />
+                <Contact id="contact" />
             </div>
         </div>
     );

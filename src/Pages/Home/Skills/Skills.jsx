@@ -14,7 +14,7 @@ import htmlImg from '../../../assets/Icons/html-5.png';
 
 const Skills = () => {
     return (
-        <div className='py-5'>
+        <div id="skills" className='py-5'>
             <SectionTittle title="My Skills"></SectionTittle>
             <Marquee gradient={false} pauseOnHover={true} speed={60} className="flex space-x-4">
                 <SkillCard skill="React js" img={reactImg}></SkillCard>

@@ -7,7 +7,7 @@ import github from '../../../assets/Icons/github.png'
 
 const Contact = () => {
     return (
-        <div>
+        <div id="contact">
             <SectionTittle title="Contact"></SectionTittle>
             <div className="flex gap-2 flex-col md:flex-row justify-between ">
                 <div data-aos="fade-right" data-aos-delay="50"

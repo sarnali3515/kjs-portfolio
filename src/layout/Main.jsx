@@ -5,7 +5,7 @@ import Home from "../Pages/Home/Home/Home";
 
 const Main = () => {
     return (
-        <div className="bg-gray-800">
+        <div id="home" className="bg-gray-800">
             < Navbar ></Navbar >
             <Home></Home>
             <Footer></Footer>

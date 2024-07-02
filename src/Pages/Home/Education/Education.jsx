@@ -6,7 +6,7 @@ import cgghsLogo from '../../../assets/Icons/cgghss.png'
 
 const Education = () => {
     return (
-        <div className="my-10">
+        <div id="education" className="my-10">
             <SectionTittle title="Education"></SectionTittle>
             <div className="flex flex-col md:flex-row justify-between">
                 <div data-aos="fade-up" data-aos-delay="50"

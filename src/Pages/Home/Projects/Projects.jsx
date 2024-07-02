@@ -16,7 +16,7 @@ import project4 from '../../../assets/Images/project-4.png'
 
 const Projects = () => {
     return (
-        <div className="mb-8">
+        <div id="projects" className="mb-8">
             <SectionTittle title="Projects"></SectionTittle>
             <div>
                 <div>

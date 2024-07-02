@@ -1,13 +1,14 @@
-
+import './Navbar.css'
 
 const Navbar = () => {
     const navLists = <>
-        <li className="font-semibold text-base hover:text-fuchsia-600"><a>Home</a></li>
-        <li className="font-semibold text-base hover:text-fuchsia-600"><a>Skills</a></li>
-        <li className="font-semibold text-base hover:text-fuchsia-600"><a>Services</a></li>
-        <li className="font-semibold text-base hover:text-fuchsia-600"><a>Projects</a></li>
-        <li className="font-semibold text-base hover:text-fuchsia-600"><a>Education</a></li>
-        <li className="font-semibold text-base hover:text-fuchsia-600"><a>Contact</a></li>
+        <li className="font-semibold text-base hover:text-fuchsia-600"><a href="#home">Home</a></li>
+        <li className="font-semibold text-base hover:text-fuchsia-600"><a href="#skills">Skills</a></li>
+        {/* <li className="font-semibold text-base hover:text-fuchsia-600"><a href="#services">Services</a ></li> */}
+        <li className="font-semibold text-base hover:text-fuchsia-600"><a href="#projects">Projects</a></li>
+        <li className="font-semibold text-base hover:text-fuchsia-600"><a href="#education">Education</a></li>
+        <li className="font-semibold text-base hover:text-fuchsia-600"><a
+            href="#contact">Contact</a></li>
     </>
     return (
         <div>

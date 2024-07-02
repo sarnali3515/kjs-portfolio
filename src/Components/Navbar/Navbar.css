@@ -1,0 +1,8 @@
+ul li a.active {
+    background: none !important;
+    text-decoration: underline;
+    font-weight: 700;
+    border-radius: 15px;
+    /* color: rgb(141, 110, 199) !important; */
+    color: blue !important;
+}
