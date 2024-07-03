@@ -48,7 +48,36 @@ const Projects = () => {
                                 </figure>
 
                                 <div className="p-3 text-left text-white ">
-                                    <h2 className="font-semibold text-2xl">EduMosaic</h2>
+
+                                    <div className="flex gap-3  items-center">
+                                        <h2 className="font-semibold text-2xl">EduMosaic</h2>
+                                        {/* Modal */}
+                                        <div >
+
+                                            <button className="btn btn-xs bg-transparent text-fuchsia-400 border-fuchsia-400" onClick={() => document.getElementById('my_modal_1').showModal()}>Features</button>
+                                            <dialog id="my_modal_1" className="modal">
+                                                <div className="modal-box bg-gray-800">
+                                                    <form method="dialog">
+
+                                                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                                    </form>
+                                                    <h3 className="font-bold text-lg text-fuchsia-500">Key Features of EduMosaic</h3>
+                                                    <p className="py-4">
+                                                        <ul className="pl-5 space-y-4 list-image-[url(check.png)]">
+                                                            <li className="disc">Developed a user-friendly platform for educational institutions, tutors, and students to manage
+                                                                classes, enrollments, and feedback efficiently</li>
+                                                            <li>Implemented comprehensive dashboards for admins, teachers, and students, enabling class
+                                                                management, user roles, progress tracking, and secure payment processing for class enrollments.</li>
+                                                            <li>
+                                                                Enriched user engagement through responsive design implementation, and fortified
+                                                                authentication, ensuring a seamless and secure learning experience
+                                                            </li>
+                                                        </ul>
+                                                    </p>
+                                                </div>
+                                            </dialog>
+                                        </div>
+                                    </div>
                                     <p className='text-base mt-2'>An educational management platform</p>
                                     <p className='text-base mt-2'><span className="text-fuchsia-600 font-medium">Technology Stack: </span><br /> React, JavaScript, Node.js, Express.js, MongoDB, Firebase, JWT, TanStack Query, Tailwind,
                                         HTML, CSS.</p>
@@ -71,7 +100,39 @@ const Projects = () => {
                                 </figure>
 
                                 <div className="p-3 text-left text-white ">
-                                    <h2 className="font-semibold text-2xl">QueryNest</h2>
+
+                                    <div className="flex gap-3  items-center">
+                                        <h2 className="font-semibold text-2xl">QueryNest</h2>
+                                        {/* Modal */}
+                                        <div >
+
+                                            <button className="btn btn-xs bg-transparent text-fuchsia-400 border-fuchsia-400" onClick={() => document.getElementById('my_modal_2').showModal()}>Features</button>
+                                            <dialog id="my_modal_2" className="modal">
+                                                <div className="modal-box bg-gray-800">
+                                                    <form method="dialog">
+
+                                                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                                    </form>
+                                                    <h3 className="font-bold text-lg text-fuchsia-500">Key Features of QueryNest</h3>
+                                                    <p className="py-4">
+                                                        <ul className="pl-5 space-y-4 list-image-[url(check.png)]">
+                                                            <li>Developed a responsive Alternative Product Information System where user can post, modify, and
+                                                                remove product queries.</li>
+                                                            <li>Users can recommend to a specific query post, can manage his recommendations and to save a
+                                                                query post, users can add a query to their favorite lists.</li>
+                                                            <li>
+                                                                Implemented secure JWT authentication for user login and private routes.
+                                                            </li>
+                                                            <li>
+                                                                Added search functionality, dark/light theme toggling, and dynamic grid layouts for enhanced
+                                                                user experience.
+                                                            </li>
+                                                        </ul>
+                                                    </p>
+                                                </div>
+                                            </dialog>
+                                        </div>
+                                    </div>
                                     <p className='text-base mt-2'>An alternative product information system</p>
                                     <p className='text-base mt-2'><span className="text-fuchsia-600 font-medium">Technology Stack: </span><br /> React, JavaScript, Node.js, Express.js, MongoDB, Firebase, JWT, Tailwind, HTML, CSS.</p>
 
@@ -92,7 +153,35 @@ const Projects = () => {
                                 </figure>
 
                                 <div className="p-3 text-left text-white ">
-                                    <h2 className="font-semibold text-2xl">Travel Trails</h2>
+
+                                    <div className="flex gap-3  items-center">
+                                        <h2 className="font-semibold text-2xl">Travel Trails</h2>
+                                        {/* Modal */}
+                                        <div >
+
+                                            <button className="btn btn-xs bg-transparent text-fuchsia-400 border-fuchsia-400" onClick={() => document.getElementById('my_modal_3').showModal()}>Features</button>
+                                            <dialog id="my_modal_3" className="modal">
+                                                <div className="modal-box bg-gray-800">
+                                                    <form method="dialog">
+
+                                                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                                    </form>
+                                                    <h3 className="font-bold text-lg text-fuchsia-500">Key Features of Travel Trails</h3>
+                                                    <p className="py-4">
+                                                        <ul className="pl-5 space-y-4 list-image-[url(check.png)]">
+                                                            <li>Developed a user-friendly tourism website focused on Southeast Asia, featuring famous spots.</li>
+                                                            <li>User can post and manage their posted spots by updating or removing the spots information.</li>
+
+                                                            <li>
+                                                                Implemented secure user authentication and profile management features using Firebase for
+                                                                personalized experiences
+                                                            </li>
+                                                        </ul>
+                                                    </p>
+                                                </div>
+                                            </dialog>
+                                        </div>
+                                    </div>
                                     <p className='text-base mt-2'>A Tourism Management Website</p>
                                     <p className='text-base mt-2'><span className="text-fuchsia-600 font-medium">Technology Stack: </span><br /> React, JavaScript, MongoDB, Firebase, Tailwind, HTML, CSS.</p>
 
@@ -113,7 +202,34 @@ const Projects = () => {
                                 </figure>
 
                                 <div className="p-3 text-left text-white ">
-                                    <h2 className="font-semibold text-2xl">Urban Charm</h2>
+
+                                    <div className="flex gap-3  items-center">
+                                        <h2 className="font-semibold text-2xl">Urban Charm</h2>
+                                        {/* Modal */}
+                                        <div >
+
+                                            <button className="btn btn-xs bg-transparent text-fuchsia-400 border-fuchsia-400" onClick={() => document.getElementById('my_modal_4').showModal()}>Features</button>
+                                            <dialog id="my_modal_4" className="modal">
+                                                <div className="modal-box bg-gray-800">
+                                                    <form method="dialog">
+
+                                                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                                    </form>
+                                                    <h3 className="font-bold text-lg text-fuchsia-500">Key Features of Urban Charm</h3>
+                                                    <p className="py-4">
+                                                        <ul className="pl-5 space-y-4 list-image-[url(check.png)]">
+                                                            <li>Secure authentication with email/password and social media options.</li>
+                                                            <li>Responsive navigation with active route highlighting and dynamic page titles.</li>
+
+                                                            <li>
+                                                                Property management including detailed listings, responsive sliders, and authenticated access for agents.
+                                                            </li>
+                                                        </ul>
+                                                    </p>
+                                                </div>
+                                            </dialog>
+                                        </div>
+                                    </div>
                                     <p className='text-base mt-2'>A Real Estate Website</p>
                                     <p className='text-base mt-2'><span className="text-fuchsia-600 font-medium">Technology Stack: </span><br /> React, JavaScript, Firebase, Tailwind, HTML, CSS.</p>
 
