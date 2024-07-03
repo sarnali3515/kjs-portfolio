@@ -63,7 +63,7 @@ const Projects = () => {
                                                     </form>
                                                     <h3 className="font-bold text-lg text-fuchsia-500">Key Features of EduMosaic</h3>
                                                     <p className="py-4">
-                                                        <ul className="pl-5 space-y-4 list-image-[url(check.png)]">
+                                                        <ul className="pl-5 space-y-4 list-disc">
                                                             <li className="disc">Developed a user-friendly platform for educational institutions, tutors, and students to manage
                                                                 classes, enrollments, and feedback efficiently</li>
                                                             <li>Implemented comprehensive dashboards for admins, teachers, and students, enabling class
@@ -115,7 +115,7 @@ const Projects = () => {
                                                     </form>
                                                     <h3 className="font-bold text-lg text-fuchsia-500">Key Features of QueryNest</h3>
                                                     <p className="py-4">
-                                                        <ul className="pl-5 space-y-4 list-image-[url(check.png)]">
+                                                        <ul className="pl-5 space-y-4 list-disc">
                                                             <li>Developed a responsive Alternative Product Information System where user can post, modify, and
                                                                 remove product queries.</li>
                                                             <li>Users can recommend to a specific query post, can manage his recommendations and to save a
@@ -168,7 +168,7 @@ const Projects = () => {
                                                     </form>
                                                     <h3 className="font-bold text-lg text-fuchsia-500">Key Features of Travel Trails</h3>
                                                     <p className="py-4">
-                                                        <ul className="pl-5 space-y-4 list-image-[url(check.png)]">
+                                                        <ul className="pl-5 space-y-4 list-disc">
                                                             <li>Developed a user-friendly tourism website focused on Southeast Asia, featuring famous spots.</li>
                                                             <li>User can post and manage their posted spots by updating or removing the spots information.</li>
 
@@ -217,7 +217,7 @@ const Projects = () => {
                                                     </form>
                                                     <h3 className="font-bold text-lg text-fuchsia-500">Key Features of Urban Charm</h3>
                                                     <p className="py-4">
-                                                        <ul className="pl-5 space-y-4 list-image-[url(check.png)]">
+                                                        <ul className="pl-5 space-y-4 list-disc">
                                                             <li>Secure authentication with email/password and social media options.</li>
                                                             <li>Responsive navigation with active route highlighting and dynamic page titles.</li>
 
