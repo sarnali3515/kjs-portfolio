@@ -25,9 +25,9 @@ const Banner = () => {
                         />
                     </h1>
                     <p>
-                        I am a dedicated Web Developer passionate about creating seamless and responsive websites. Skilled in modern web technologies and innovative solutions. Let's transform your ideas into reality!
+                        I am a dedicated Web Developer passionate about creating seamless, responsive websites. Skilled in modern web technologies and innovative solutions. I aim to deliver high-quality, user-friendly applications and continually expand my expertise to drive impactful digital experiences.
                     </p>
-                    <a href='/Sarnali-Resume-front.pdf' target='_blank' download="Sarnali-Resume-front.pdf" className="btn bg-fuchsia-800 text-white border-none mt-6 hover:bg-fuchsia-600">Download Resume</a>
+                    <a href='/Sarnali-Resume-frontend.pdf' target='_blank' download="Sarnali-Resume-frontend.pdf" className="btn bg-fuchsia-800 text-white border-none mt-6 hover:bg-fuchsia-600">Download Resume</a>
                 </div>
                 <div data-aos="fade-left" data-aos-delay="50"
                     data-aos-duration="1000">
