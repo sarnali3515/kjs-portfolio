@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import img from '../../../assets/Images/profile.png'
 const Banner = () => {
     return (
-        <div className='max-w-7xl mx-auto text-white'>
+        <div className='max-w-7xl 2xl:max-w-[1500px] mx-auto text-white px-3'>
             <div className="flex flex-col-reverse md:flex-row justify-between">
                 <div data-aos="fade-right" data-aos-delay="50"
                     data-aos-duration="1000" className='pt-10 md:pl-16 md:w-1/2'>

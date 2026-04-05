@@ -16,7 +16,7 @@ import project4 from '../../../assets/Images/project-4.png'
 
 const Projects = () => {
     return (
-        <div id="projects" className="mb-8">
+        <div id="projects" className="my-8 lg:my-16">
             <SectionTittle title="Projects"></SectionTittle>
             <div>
                 <div>
@@ -193,8 +193,9 @@ const Projects = () => {
                                 </div>
                             </div>
                         </SwiperSlide>
+
                         {/* Urban Charm */}
-                        <SwiperSlide >
+                        {/* <SwiperSlide >
                             <div data-aos="flip-left" data-aos-delay="50"
                                 data-aos-duration="1000" className="card hover:-translate-y-4 hover:border-fuchsia-500 bg-gray-900 w-full md:h-[560px] mt-5 rounded border border-fuchsia-300 ">
                                 <figure className="">
@@ -206,7 +207,7 @@ const Projects = () => {
                                     <div className="flex gap-3  items-center">
                                         <h2 className="font-semibold text-2xl">Urban Charm</h2>
                                         {/* Modal */}
-                                        <div >
+                        {/* <div >
 
                                             <button className="btn btn-xs bg-transparent text-fuchsia-400 border-fuchsia-400" onClick={() => document.getElementById('my_modal_4').showModal()}>Features</button>
                                             <dialog id="my_modal_4" className="modal">
@@ -229,8 +230,8 @@ const Projects = () => {
                                                 </div>
                                             </dialog>
                                         </div>
-                                    </div>
-                                    <p className='text-base mt-2'>A Real Estate Website</p>
+                                    </div> */}
+                        {/* <p className='text-base mt-2'>A Real Estate Website</p>
                                     <p className='text-base mt-2'><span className="text-fuchsia-600 font-medium">Technology Stack: </span><br /> React, JavaScript, Firebase, Tailwind, HTML, CSS.</p>
 
                                     <div className='flex justify-between mt-5'>
@@ -239,8 +240,8 @@ const Projects = () => {
                                         <a className="btn hover:bg-fuchsia-600 m-0 px-2 border-fuchsia-500 bg-gray-950 text-white" href="https://github.com/sarnali3515/real-estate-a9" target="_blank"><FaGithub></FaGithub> Server Github</a>
                                     </div>
                                 </div>
-                            </div>
-                        </SwiperSlide>
+                            </div> */}
+                        {/* </SwiperSlide> */}
 
                     </Swiper>
                 </div>

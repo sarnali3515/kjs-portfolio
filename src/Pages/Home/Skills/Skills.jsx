@@ -29,6 +29,20 @@ const Skills = () => {
                 <SkillCard skill="CSS3" img={cssImg}></SkillCard>
                 <SkillCard skill="HTML5" img={htmlImg}></SkillCard>
             </Marquee>
+
+            {/* reverse */}
+            <Marquee gradient={false} pauseOnHover={true} speed={60} direction="right" className="flex space-x-4 mt-12">
+                <SkillCard skill="Next js" img={nextImg}></SkillCard>
+                <SkillCard skill="React js" img={reactImg}></SkillCard>
+                <SkillCard skill="Node Js" img={nodeImg}></SkillCard>
+                <SkillCard skill="Express js" img={expressImg}></SkillCard>
+                <SkillCard skill="Mongodb" img={mongodbImg}></SkillCard>
+                <SkillCard skill="Firebase" img={firebaseImg}></SkillCard>
+                <SkillCard skill="Javascript" img={javascriptImg}></SkillCard>
+                <SkillCard skill="Tailwind" img={tailwindImg}></SkillCard>
+                <SkillCard skill="CSS3" img={cssImg}></SkillCard>
+                <SkillCard skill="HTML5" img={htmlImg}></SkillCard>
+            </Marquee>
         </div>
     );
 };
