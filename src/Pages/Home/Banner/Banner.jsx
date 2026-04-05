@@ -27,7 +27,7 @@ const Banner = () => {
                     <p>
                         I am a dedicated Web Developer passionate about creating seamless, responsive websites. Skilled in modern web technologies and innovative solutions. I aim to deliver high-quality, user-friendly applications and continually expand my expertise to drive impactful digital experiences.
                     </p>
-                    <a href='/Sarnali-Resume-frontend.pdf' target='_blank' download="Sarnali-Resume-frontend.pdf" className="btn bg-fuchsia-800 text-white border-none mt-6 hover:bg-fuchsia-600">Download Resume</a>
+                    <a href='/sarna-resume.pdf' target='_blank' download="sarnali-resume.pdf" className="btn bg-fuchsia-800 text-white border-none mt-6 hover:bg-fuchsia-600">Download Resume</a>
                 </div>
                 <div data-aos="fade-left" data-aos-delay="50"
                     data-aos-duration="1000">

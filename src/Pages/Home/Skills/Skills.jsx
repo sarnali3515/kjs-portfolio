@@ -2,6 +2,7 @@
 import Marquee from 'react-fast-marquee';
 import SectionTittle from "../../../Components/SectionTitle/SectionTittle";
 import SkillCard from "./SkillCard";
+import nextImg from '../../../assets/Icons/next-js.png';
 import reactImg from '../../../assets/Icons/react-icon.png';
 import nodeImg from '../../../assets/Icons/node-js.png';
 import expressImg from '../../../assets/Icons/express-js.png';
@@ -17,6 +18,7 @@ const Skills = () => {
         <div id="skills" className='py-5'>
             <SectionTittle title="My Skills"></SectionTittle>
             <Marquee gradient={false} pauseOnHover={true} speed={60} className="flex space-x-4">
+                <SkillCard skill="Next js" img={nextImg}></SkillCard>
                 <SkillCard skill="React js" img={reactImg}></SkillCard>
                 <SkillCard skill="Node Js" img={nodeImg}></SkillCard>
                 <SkillCard skill="Express js" img={expressImg}></SkillCard>

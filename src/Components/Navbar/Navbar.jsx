@@ -61,9 +61,9 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a
-            href="/Sarnali-Resume-frontend.pdf"
+            href="/sarna-resume.pdf"
             target="_blank"
-            download="Sarnali-Resume-frontend.pdf"
+            download="sarnali-resume.pdf"
             className="btn text-fuchsia-500 text-xs md:text-lg hover:bg-fuchsia-600 hover:text-white font-medium border-fuchsia-500 bg-transparent md:mr-4"
           >
             Resume
